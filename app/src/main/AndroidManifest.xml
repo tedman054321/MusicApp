@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tchivetta.musicapp" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BandList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bandDescription"
+            android:label="@string/title_activity_band_description" >
+        </activity>
+        <activity
+            android:name=".Concerts"
+            android:label="@string/title_activity_concerts" >
+        </activity>
+        <activity
+            android:name=".FavoritesList"
+            android:label="@string/title_activity_favorites_list" >
+        </activity>
+    </application>
+
+</manifest>

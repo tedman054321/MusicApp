@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tchivetta.musicapp.bandDescription">
+    <item android:id="@+id/navigate"
+        android:title="@string/navigate"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/Favorites"
+        android:title="@string/Favorites"
+        android:orderInCategory="200"/>
+    <item android:id="@+id/Uninstall"
+        android:title="@string/Uninstall"
+        android:orderInCategory="300"/>
+
+
+</menu>

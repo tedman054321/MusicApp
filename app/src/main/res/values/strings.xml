@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigate">Information</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Uninstall">Uninstall</string>
+    <string-array name="bandList">
+        <item>Breakfast in Bed</item>
+        <item>Mumford and Sons</item>
+        <item>Smashmouth</item>
+        <item>Florence and the Machine</item>
+        <item>WuTang</item>
+    </string-array>
+    <string-array name="bandDesc">
+        <item>Breakfast in Bed is Santa Clara\'s newest and greatest band. Formed in 2013, they are quickly taking over the world.</item>
+        <item>Mumford and Sons is london\'s best folk and rock group.</item>
+        <item>Smashmouth is a childhood classic.  Everyone likes Smashmouth.</item>
+        <item>Florence, like the machine, is a moving and grooving mix of rock and roll.</item>
+        <item>WuTang is the OG rap group.  RZA, Killer Mike, and the boys hold it down.</item>
+    </string-array>
+    <string name="title_activity_band_description">bandDescription</string>
+    <string name="title_activity_concerts">Concerts</string>
+    <string name="title_activity_favorites_list">FavoritesList</string>
+</resources>
